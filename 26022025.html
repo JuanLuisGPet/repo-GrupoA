@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de un Formuario</title>
+</head>
+
+<body>
+    <h1>  Elementos de un Formulario </h1>
+    <form action="" method="post">
+
+        <fieldset>
+            <legend>Registro</legend>
+
+            <p>
+
+                <!-- Campo de Texto -->
+                <label for="id-nombre">Nombre</label>
+                <input type="text" name="nombre" id="id-nombre" required>
+
+            </p>
+            <p>
+
+                <!-- Campo de Contraseña -->
+                <label for="id-password">Contraseña</label>
+                <input type="password" name="password" id="id-password" required>
+
+            </p>
+            <p>
+
+                <!-- Campo de Correo Electrónico -->
+                <label for="id-email">Email</label>
+                <input type="email" name="email" id="id-email" required>
+
+            </p>
+        </fieldset>
+        <p>
+
+            <!-- Campo de Número -->
+            <label for="id-number">Numero</label>
+            <input type="number" name="number" id="id-number">
+
+        </p>
+        <p>
+
+            <!-- Campo de Fecha -->
+            <label for="id-date">Fecha</label>
+            <input type="date" name="date" id="id-date">
+
+        </p>
+        <p>
+
+            <!-- Campo de Hora -->
+            <label for="id-time">Hora</label>
+            <input type="time" name="time" id="id-time">
+
+        </p>
+        <p>
+
+            <!-- Campo de Select -->
+            <label for="id-select">Nacionalidad</label>
+            <select name="select" id="id-select">
+                <option value="">Select...</option>
+                <option value="mx">Mexico</option>
+                <option value="US">USA</option>
+                <option value="JP">Japan</option>
+            </select>
+
+        </p>
+        <p>
+
+            <!-- Campo de Radio -->
+            <label for="id-radio">Genero</label>
+            <input type="radio" name="radio" id="id-radio" value="masculino">
+            <label for="id-radio">Masculino</label>
+            <input type="radio" name="radio" id="id-radio" value="femenino">
+            <label for="id-radio">Femenino</label>
+
+        </p>
+        <p>
+
+            <!-- Campo de Checkbox -->
+            <label for="id-checkbox">Intereses</label>
+            <input type="checkbox" name="checkbox" id="id-checkbox" value="1">
+            <label for="id-checkbox">Videojuegos</label>
+            <input type="checkbox" name="checkbox" id="id-checkbox" value="1">
+            <label for="id-checkbox">Anime</label>
+            <input type="checkbox" name="checkbox" id="id-checkbox" value="1">
+            <label for="id-checkbox">Leer</label>
+
+        </p>
+        <p>
+
+            <!-- Campo de Textarea -->
+            <label for="id-textarea">Comentario:<br></label>
+            <textarea name="textarea" id="id-textarea" rows="5" cols="50">Escribir...</textarea>
+
+        </p>
+        <p>
+
+            <!-- Campo de File -->
+            <label for="id-file">Archivo</label>
+            <input type="file" name="file" id="id-file">
+
+        </p>
+        <p>
+
+            <!-- Campo de Botón -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+
+        </p>
+
+    </form>
+</body>
+
+</html>
