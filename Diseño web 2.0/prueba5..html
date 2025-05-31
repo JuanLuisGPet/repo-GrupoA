@@ -1,0 +1,10 @@
+<button type="button" onclick="detener()">detener</button>
+<p id="log"></p>
+<script>
+    var intervalo = setTimeout(function(){
+        alert("Hola Mundo");
+    }, 2000);
+function detener(){
+    clearTimeout(intervalo);
+}
+</script>
